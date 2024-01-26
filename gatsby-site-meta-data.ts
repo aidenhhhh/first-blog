@@ -46,7 +46,7 @@ export default {
   featured: [
     {
       title: '개발, 늦었다고 생각할 때가...',
-      category: 'featured-category1',
+      category: 'featured-develop',
     },
     {
       title: 'Tech Review',
@@ -54,7 +54,7 @@ export default {
     },
     {
       title: 'I love it.',
-      category: 'featured-category2',
+      category: 'featured-category3',
     },
   ],
 
@@ -66,7 +66,7 @@ export default {
       category: 'Career',
       date: '2020.08.04 - NOW',
       en: 'gredit',
-      kr: '그래딧',
+      kr: '(주)그래딧',
       info: 'Web Publisher',
       link: '',
     },
@@ -95,12 +95,12 @@ export default {
     {
       title: 'Portfolio',
       description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      techStack: ['Html/Css', 'Javascript', 'Jquery'],
+      thumbnailUrl: `/port_1.jpg`, // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: '',
-        demo: '',
+        github: 'https://github.com/achi-jinsoo/portfolid24',
+        demo: 'http://aidenhan.com',
         googlePlay: '',
         appStore: '',
       },
